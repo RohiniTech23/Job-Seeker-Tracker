@@ -30,7 +30,7 @@ def get_job_posts(location):
         return []
 
 # Streamlit UI
-st.title("Job Vacancies Tracker")
+st.title("Job Seeker Tracker")
 
 menu = ["Add Job Post", "View Job Posts"]
 choice = st.sidebar.selectbox("Menu", menu)
